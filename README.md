@@ -1,8 +1,7 @@
-```sh
+``` sh
 
 {
   "workbench.colorCustomizations": {
-    
     "[Abyss]": {},
     // "tab.border": "#00ffea",
     "symbolIcon.classForeground": "#00ffea",
@@ -129,9 +128,9 @@
     "editorLineNumber.activeForeground": "#00ffea",
     "descriptionForeground": "#00ffea",
     "activityBarTop.dropBorder": "#00ffea",
-    "terminalCommandDecoration.errorBackground": "#00ffea"
+    "terminalCommandDecoration.errorBackground": "#00ffea",
   },
-  "redhat.telemetry.enabled": false,
+  "redhat.telemetry.enabled": true,
   "code-runner.runInTerminal": true,
   "editor.mouseWheelZoom": true,
   "editor.fontSize": 16,
@@ -145,7 +144,7 @@
   // "files.autoSaveWhenNoErrors": true,
   "files.exclude": {
     "**/*.class": true,
-    "**/*.exe": true
+    "**/*.exe": true,
   },
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "powermode.enabled": true,
@@ -164,7 +163,7 @@
   "editor.fontWeight": "normal",
   "terminal.integrated.fontWeightBold": "bold",
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "diffEditor.hideUnchangedRegions.minimumLineCount": 4,
   "workbench.colorTheme": "SkillAvid Pure Black Italic",
@@ -174,38 +173,37 @@
   "files.autoSaveDelay": 0,
   "workbench.preferredDarkColorTheme": "SkillAvid Pure Black Italic",
   "workbench.preferredHighContrastColorTheme": "Tomorrow Night Blue",
-  "workbench.preferredHighContrastLightColorTheme": "Blueberry Banana",
   "explorer.confirmDelete": false,
   "editor.accessibilitySupport": "off",
   "terminal.integrated.tabs.defaultIcon": "github",
-  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDragAndDrop": true,
   "cmake.showOptionsMovedNotification": false,
-  "debug.console.historySuggestions": false,
+  "debug.console.historySuggestions": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "files.associations": {
-    "*.html": "html"
+    "*.html": "html",
   },
-  "explorer.confirmPasteNative": false,
+  "explorer.confirmPasteNative": true,
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "database-client.autoSync": true,
   "sqltools.connections": [],
   "security.workspace.trust.untrustedFiles": "open",
   "[sql]": {
-    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode",
   },
   "workbench.editor.enablePreview": false,
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "git.ignoreMissingGitWarning": true,
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features",
   },
   "window.newWindowProfile": "Default",
   "editor.fontVariations": true,
@@ -217,25 +215,25 @@
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
-      "icon": "terminal-powershell"
+      "icon": "terminal-powershell",
     },
     "Command Prompt": {
       "path": [
         "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
+        "${env:windir}\\System32\\cmd.exe",
       ],
       "args": [],
-      "icon": "terminal-cmd"
+      "icon": "terminal-cmd",
     },
     "Git Bash": {
-      "source": "Git Bash"
-    }
+      "source": "Git Bash",
+    },
   },
   "editor.experimental.preferTreeSitter.typescript": true,
   "remote.portsAttributes": {
     "9000": {
-      "protocol": "http"
-    }
+      "protocol": "http",
+    },
   },
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.letterSpacing": 1,
@@ -254,31 +252,32 @@
   "terminal.integrated.initialHint": true,
   "terminal.integrated.stickyScroll.maxLineCount": 10,
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.suggest.cdPath": "off",
+  "terminal.integrated.suggest.cdPath": "relative",
+  "terminal.integrated.commandHistory": true,
   "terminal.integrated.profiles.linux": {
     "bash": {
       "path": "bash",
-      "icon": "terminal-bash"
+      "icon": "terminal-bash",
     },
     "zsh": {
-      "path": "zsh"
+      "path": "zsh",
     },
     "fish": {
-      "path": "fish"
+      "path": "fish",
     },
     "tmux": {
       "path": "tmux",
-      "icon": "terminal-tmux"
+      "icon": "terminal-tmux",
     },
     "pwsh": {
       "path": "pwsh",
-      "icon": "terminal-powershell"
-    }
+      "icon": "terminal-powershell",
+    },
   },
   "notebook.output.linkifyFilePaths": false,
   "code-runner.clearPreviousOutput": true,
   "code-runner.enableAppInsights": false,
-  "code-runner.showExecutionMessage": false,
+  "code-runner.showExecutionMessage": true,
   "editor.formatOnPaste": true,
   "prettier.enableDebugLogs": true,
   "notebook.formatOnSave.enabled": true,
@@ -297,7 +296,7 @@
     "fileHistory": true,
     "repositories": true,
     "searchAndCompare": false,
-    "launchpad": false
+    "launchpad": false,
   },
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingDelete": "always",
@@ -310,7 +309,7 @@
   "editor.guides.bracketPairsHorizontal": true,
   "prettier.bracketSameLine": true,
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "chat.instructionsFilesLocations": {
     ".github/instructions": true,
@@ -319,11 +318,11 @@
     "C:\\Users\\shiva\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
     "C:\\Users\\shiva\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
     "C:\\Users\\shiva\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
-    "C:\\Users\\shiva\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true
+    "C:\\Users\\shiva\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
   },
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "[java]": {
-    "editor.defaultFormatter": "redhat.java"
+    "editor.defaultFormatter": "redhat.java",
   },
   "postman.mcp.notifications.postmanMCP": false,
   "liveshare.allowGuestTaskControl": true,
@@ -332,9 +331,14 @@
     "*": false,
     "plaintext": false,
     "markdown": false,
-    "scminput": false
+    "scminput": false,
   },
   "workbench.editor.empty.hint": "hidden",
   "editor.formatOnSave": true,
-  "editor.accessibilityPageSize": 700
-}```
+  "editor.accessibilityPageSize": 700,
+}
+
+
+
+
+```
